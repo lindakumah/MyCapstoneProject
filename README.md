@@ -51,4 +51,8 @@ To setup the app for development on your local machine, please follow the instru
 
 ## [Live Demo](https://world19covid.web.app/)
 
+A user can log into the main page by typing 
+UserName: Lyn
+Password: password
+
 

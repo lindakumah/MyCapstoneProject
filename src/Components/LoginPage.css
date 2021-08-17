@@ -79,7 +79,7 @@
 .actions a {
   border: 0;
   outline: none;
-  font-size: 20px;
+  font-size: 15px;
   min-height: 30px;
   border-radius: 0;
   padding: 10px 20px;
@@ -97,7 +97,7 @@
 }
 
 .container h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 35px;
 }
 
@@ -116,7 +116,7 @@
   border: 0;
   border-radius: 0;
   padding: 10px 0px;
-  font-size: 20px;
+  font-size: 15px;
   min-height: 30px;
   padding: 10px 8px;
   border-radius: 4px;
@@ -139,7 +139,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 30px;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 20px;
   color: white;
   background-color: #494646;
@@ -159,7 +159,7 @@
             align-items: center;
   }
   .container h1 {
-    font-size: 25px;
+    font-size: 18px;
   }
   #square input,
   #square button {
@@ -185,13 +185,20 @@
   .container h1 {
     font-size: 25px;
   }
-  .container form input,
-  .container form button {
+  .container form input {
     margin-bottom: 20px;
-    width: 100px;
+    width: 250px;
     max-height: 100px;
     font-size: 15px;
   }
+
+  .container form button {
+    margin-bottom: 20px;
+    width: 200px;
+    max-height: 100px;
+    font-size: 15px;
+  }
+
   .actions Link {
     font-size: 10px;
   }

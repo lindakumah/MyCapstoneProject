@@ -16,10 +16,6 @@ const LoginPage = ({history}) => {
     const [password, setPassword] = useState("");
     const [isLoading, setIsLoading] = useState(false);
 
-    // useEffect(() => {
-    //     setEmail(window.localStorage.getItem("registrationEmail"))
-    // }, []);
-
     const submitHandler = async (e) => {
         e.preventDefault();       
         setIsLoading(true);
@@ -47,7 +43,7 @@ const LoginPage = ({history}) => {
               <div className="container">
                   <div id="square">
                       <div className="left">
-                          <h1>Login</h1>
+                          <h1>Login to continue</h1>
                           <form onchange={submitHandler}>
                               <input 
                               type="email" 
@@ -67,7 +63,7 @@ const LoginPage = ({history}) => {
                               value={password}
                               onChange={(e) => setPassword(e.target.value)}
                               />
-                              <Link to= "/covid"><button type="submit">Submit</button></Link>
+                              <button type="submit">Log in</button>
                           </form>
                       </div>
                   </div>

@@ -12,6 +12,22 @@ body {
   width: 370px;
   margin-top: 50px;
 }
+
+Link{
+  border: 0;
+  padding: 10px 0;
+  width: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  min-height: 30px;
+  font-size: 20px;
+  border-radius: 20p;
+  color: white;
+  background-color: rgb(73, 70, 70)
+
+}
+
 @media (max-width: 770px) {
   .container {
     margin: 0 10%;
@@ -20,3 +36,5 @@ body {
     width: 100%;
   }
 }
+
+
