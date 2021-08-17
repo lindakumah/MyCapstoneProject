@@ -13,19 +13,24 @@ body {
   margin-top: 50px;
 }
 
-Link{
+.link{
   border: 0;
   padding: 10px 0;
   width: 100px;
   display: flex;
-  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: right;
   justify-content: center;
-  min-height: 30px;
-  font-size: 20px;
-  border-radius: 20p;
-  color: white;
-  background-color: rgb(73, 70, 70)
+  font-size: 15px;
+  border-radius: 20px;
+  color: black;
+  background-color: rgb(128, 203, 238);
+  text-decoration: none;
+}
 
+.link:hover {
+  background-color: blueviolet;
 }
 
 @media (max-width: 770px) {

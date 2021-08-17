@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { Cards, Chart, CountryPicker } from ".";
-// import LoginPage from "./Components/LoginPage";
 import styles from "../App.module.css";
 import {Link} from "react-router-dom";
 import { fetchData } from "../api/index";
@@ -40,7 +39,7 @@ class CovidData extends React.Component {
         <Cards data={data} country={country} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
-        <Link className="linkToLogin" to="/LoginPage.jsx">Logout</Link>
+        <Link className={styles.link} to="/">Logout</Link>
         <Footer />
       </div>
     );

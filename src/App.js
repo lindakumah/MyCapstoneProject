@@ -1,8 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route, Redirect} from "react-router-dom";
 import LoginPage from './Components/LoginPage';
-// import SignUp from './Components/SignUp';
-// import CompleteSignUp from './Components/CompleteSignUp';
 import CovidData from "./Components/CovidDataO";
 import ResetPassword from './Components/ResetPassword';
 import {connect} from 'react-redux';
@@ -39,8 +37,6 @@ const App = () => {
           <Route path="/" exact component={LoginPage} />
           <Route path="/covid" component={CovidData} />
           <Route path="/resetpassword" component={ResetPassword} />
-          {/* <Route path="/signup" component={SignUp} /> */}
-          {/* <Route path="/signup/complete" component={CompleteSignUp} /> */}
         </Switch>
       </BrowserRouter>
     </div>

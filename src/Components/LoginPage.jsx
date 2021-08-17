@@ -63,7 +63,7 @@ const LoginPage = ({history}) => {
                               value={password}
                               onChange={(e) => setPassword(e.target.value)}
                               />
-                              <button type="submit">Log in</button>
+                              <Link to="/covid"><button type="submit">Log in</button></Link>
                           </form>
                       </div>
                   </div>
