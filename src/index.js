@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import { createStore } from "redux";
 import {Provider} from 'react-redux';
-//import {createStore} from 'redux';
-import store from './store';
+import { fetchCountries } from "./api/index";
 
-// const store = createStore(Reducer);
+const store = createStore(fetchCountries);
 
 ReactDOM.render(
     <React.StrictMode>
@@ -16,8 +16,3 @@ ReactDOM.render(
     document.getElementById('root')
 )
 
-// ReactDOM.render(
-// <Provider store={store}>
-// <App />
-// </Provider>,
-//     document.getElementById("root"));

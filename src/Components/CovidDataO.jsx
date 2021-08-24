@@ -1,12 +1,10 @@
 import React from "react";
-import { useState } from "react";
 import { Cards, Chart, CountryPicker } from ".";
 import styles from "../App.module.css";
 import {Link} from "react-router-dom";
 import { fetchData } from "../api/index";
 import coronaImage from "../images/image.png";
 import Footer from "./Footer/Footer";
-import axios from "axios";
 
 class CovidData extends React.Component {
   state = {
